@@ -1920,6 +1920,12 @@ section#content .box-area {
     min-height: 100%;
     max-height: 100%;
 }
+div#main-slider .banner-form {
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 30px);
+}
 
 
 }
