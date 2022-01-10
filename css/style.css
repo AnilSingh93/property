@@ -1874,3 +1874,52 @@ div#main-slider .banner-form button {
 div#main-slider .banner-form p {
     margin-bottom: 20px;
 }
+section#content .box-area {
+    min-height: 370px;
+    max-height: 100%;
+}
+
+@media (max-width: 767px){
+
+	.skill-home {
+		margin-bottom: 50px;
+		margin-top: 0;
+		}
+		div#main-slider {
+			min-height: 610px;
+			max-height: 100%;
+		}
+		div#main-slider ul li img {
+			min-height: 610px;
+			max-height: 100%;
+			object-fit: cover;
+		}
+section.call-action .align-cen {
+    flex-direction: column;
+}
+section.section-padding.gray-bg {
+    padding: 60px 20px;
+}
+section.service-sec:before
+{
+	width: 0;
+}
+section.service-sec .bmv-left img {
+    width: 100%;
+}
+section.call-action .call-action-btn, section.call-action .call-action-btn h3 {
+    text-align: center;
+}
+section.call-action .call-action-btn.btn-align-center {
+     margin-top: 30px;
+}
+section.call-action .call-action-btn p {
+    line-height: 30px;
+}
+section#content .box-area {
+    min-height: 100%;
+    max-height: 100%;
+}
+
+
+}
