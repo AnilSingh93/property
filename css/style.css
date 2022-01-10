@@ -1879,8 +1879,189 @@ section#content .box-area {
     max-height: 100%;
 }
 
-@media (max-width: 767px){
+.section-padding p {
+    color: #383838;
+    font-size: 16px;
+}
 
+.section-padding .about-left.text-center {
+    margin-top: 30px;
+    padding: 0 120px;
+    font-weight: bold;
+}
+.section-padding .about-right {
+    margin-top: 30px;
+	text-align: center;
+}
+section.about_last-sec:before{
+	background: #cccccc;
+}
+section.about_last-sec .bmv-left p,
+section.about_last-sec .bmv-left .location-left,
+section.about_last-sec .bmv-left .location-right,
+section.about_last-sec .section-tittle.about-property-left h2 {
+        color: #000;
+}
+section.about_last-sec .bmv-left p {
+    font-weight: 700;
+}
+
+
+
+.section-padding {
+    padding: 50px 0 0;
+ }
+.about-section
+{   background: #cecece;}
+
+section.section-about-new_what .skill-home-solid .box-area {
+    background: #fff;
+    box-shadow: 0 2rem 3rem rgb(0 0 0 / 5%), 0 0 5px rgb(0 0 0 / 5%);
+	border: 1px solid #46bd5585;
+}
+section.section-about-new_what .skill-home-solid span.icons {
+    background: transparent !important;
+    border: none;
+    text-align: center;
+    display: block;
+}
+
+section.section-about-new_what .skill-home-solid span.icons i {
+    font-size: 50px;
+	color: #46bd55;
+}
+section.section-about-new_what .skill-home-solid .box-area h3 {
+    text-align: center;
+    min-height: 40px;
+}
+section.section-about-new_what .box-area p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+body section.section-about-new_what .skill-home-solid .box-area {
+    min-height: unset !important;
+}
+.padd-t
+{
+	padding-top: 50px;
+}
+body section.section-about-new_what .skill-home-solid .box-area {
+    margin-top: 30px;
+}
+section.weraremoving::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #16143ee3;
+}
+section.weraremoving {
+    background: url(../img/slides/1.jpg) no-repeat center center;
+    background-attachment: fixed;
+    padding: 70px 0px 50px;
+    position: relative;
+	background-size: cover;
+}
+.text-left {
+    text-align: left!important;
+}
+section.weraremoving h2.mainheading {
+    color: #fff;
+	text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.citylisyt ul li {
+    margin-bottom: 15px;
+}
+.midcenter {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.midcenter a.samebtn {
+    background: #46bd55;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+	font-size: 16px;
+}
+.midcenter a.samebtn:hover
+{
+	text-decoration: none;
+}
+
+.citylisyt {
+    position: relative;
+    margin-top: 20px;
+}
+.citylisyt ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.citylisyt ul li a::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: url(../img/checked.png) no-repeat;
+    display: inline-block;
+    margin-right: 0;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.citylisyt ul li a {
+    color: #fff;
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+	display: flex;
+}
+.costcalc img {
+    min-height: 300px;
+    max-height: 100%;
+    object-fit: cover;
+}
+.citylisyt ul li a:hover {
+    text-decoration: none;
+}
+
+.btn-top-about
+{
+	margin-top: 50px;
+}
+    
+
+
+/**	new responsice	***********/
+
+
+@media (max-width: 767px){
+	body.about-page .row.showcase-section {
+		overflow-x: hidden;
+	}
+	.section-padding .about-left.text-center {
+		padding: 0;
+	}
 	.skill-home {
 		margin-bottom: 50px;
 		margin-top: 0;

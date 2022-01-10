@@ -158,6 +158,7 @@ jQuery(document).ready(function($) {
 					  slidesToScroll: 1,
 					  arrows: false,
 					  autoplay: true,
+					  autoplaySpeed: 4000,
 					  dots:false,
 					   responsive: [
     {
