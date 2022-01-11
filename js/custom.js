@@ -158,8 +158,8 @@ jQuery(document).ready(function($) {
 					  slidesToScroll: 1,
 					  arrows: false,
 					  autoplay: true,
-					  autoplaySpeed: 4000,
-					  dots:false,
+					  autoplaySpeed: 2000,
+             dots:false,
 					   responsive: [
     {
       breakpoint: 1024,
@@ -187,3 +187,11 @@ jQuery(document).ready(function($) {
 	
 });
 });
+
+
+$(document).ready(function(){
+    $(".colle-right h2").click(function(){
+      $(".filter-inner").toggleClass("filter-hide");
+      $(".colle-right").toggleClass("down-arrow");
+  });
+  });
