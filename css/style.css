@@ -2200,14 +2200,111 @@ font-size: 	16px
 				background: red;
 			}
 				
-				
+			.product-images-inner img {
+				width: 100%;
+			}
+			.product-thumbnail img {
+				max-height: 100px;
+				min-height: 100px;
+				object-fit: cover;margin-right: 20px;
+				cursor:  pointer;
+			}
+			.product-images-inner img {max-height: 350px;object-fit: cover;}
+			.product-right h3 {
+				font-weight: bold;
+			}
+			
+			.product-right h4 {
+				font-weight: 600;
+			}
+			
+			.product-right .line-right-bor ul li {
+				font-size: 16px;
+				color: #000;
+				border-right: 2px solid #46bd55;
+				padding-right: 10px;
+			}
+			
+			.product-right .line-right-bor ul li:last-child {
+				border: none;
+			}
+			
+			.product-right .line-right-bor ul:first-child li {
+				color: #46bd55;
+			}
+			
+			.product-right .line-right-bor ul:last-child li {
+				border-color: #000;
+			}
+			section.product-section .prod-items span {
+				font-weight: bold;
+				color: #000;
+				font-size: 18px;
+				min-width: 30%;
+				max-width: 100%;
+				display: inline-block;
+			}
+			section.product-section .prop-btn button {
+				background: #46bd55;
+				color: #fff;
+				font-weight: 600;
+				padding: 10px 20px;
+				margin-bottom: 10px;
+				margin-right: 10px;
+				border: 1px solid #46bd55;
+				border-radius: 5px !important;
+			}
+			section.product-section .pro-desc p {
+				font-size: 25px;
+				line-height: 40px;
+				font-weight: bold;
+				color: #000;
+			}
+			
+			section.product-section .pro-desc p span {display: inline-block;}
+			.product-right .pro-desc ul li
+			{
+				font-size: 20px;
+				margin-bottom: 20px;
+
+			}
+			section.product-section .product-right .pro-desc ul li,
+			section.product-section .product-right .pro-desc ul li:first-child {
+				padding-left: 35px;
+			}
+		section.product-section .product-right .pro-desc ul li {
+				position: relative;
+			}
+			section.product-section p {
+				font-size: 16px;
+				font-weight: 600;
+			}			
+			section.product-section .product-right .pro-desc ul li:before {
+				content: "\f046";
+				position: absolute;
+				font-family: 'FontAwesome';
+				left: 0;
+			}
+
+.product-thumbnail {
+    margin-top: 20px;
+}
 
 
 
-/**	new responsice	***********/
+
+/**	new responsive	***********/
 
 
 @media (max-width: 767px){
+	.product-images-inner img {
+		max-height: 300px;
+			min-height: 300px;
+	}
+	section.product-section .prod-items span {
+		min-width: 50%;
+	}
+
 	.filter-inner {
 		display: none;
 	}

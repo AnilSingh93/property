@@ -191,7 +191,46 @@ jQuery(document).ready(function($) {
 
 $(document).ready(function(){
     $(".colle-right h2").click(function(){
-      $(".filter-inner").toggleClass("filter-hide");
-      $(".colle-right").toggleClass("down-arrow");
+      $(".filter-inner").toggleClass("filter-hide", );
+      $(".colle-right").toggleClass("down-arrow", 5000);
   });
   });
+
+
+  $(document).ready(function () {
+    $('.product-images').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: false,
+     fade: true,
+     asNavFor: '.product-thumbnail'
+   });
+   $('.product-thumbnail').slick({
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     asNavFor: '.product-images',
+     dots: false,
+     arrows: false,
+     centerMode: true,
+     focusOnSelect: true,
+     responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+     slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+     slidesToScroll: 1
+        }
+      }
+    ]
+       
+   });
+   
+   });
+   
