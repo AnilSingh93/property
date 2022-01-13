@@ -2290,13 +2290,67 @@ font-size: 	16px
     margin-top: 20px;
 }
 
+.contact-address i {
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
+    background: #46bd55;
+    border-radius: 10px;
+}
 
+.contact-address .contact-icons {
+    width: 100%;
+}
+.contact-address .contact-icons {
+    text-align: center;
+}
+.contact-address p b {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-address p {
+    font-size: 16px;
+}
+section#content form#contactForm input {
+    margin-bottom: 15px;
+}
+section#content form#contactForm h3 {
+    margin-top: 0;
+}
+section#content form button.btn.btn-primary {
+    margin-top: 20px;
+}
+.contact-address p a {
+    color: #656565;
+}
+section#content .about-logo p {
+    font-size: 15px;
+}
+section.product-section .product-right h3 {
+    margin-top: 0;
+}
+section.product-section .product-heading h2 {
+    margin-top: 50px;
+}
 
 
 /**	new responsive	***********/
 
 
 @media (max-width: 767px){
+	section.product-section .product-right h3 {
+		margin-top: 30px;
+	}
+	.contact-address p {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.contact-address {
+		margin-top: 80px;
+	}
 	.product-images-inner img {
 		max-height: 300px;
 			min-height: 300px;
