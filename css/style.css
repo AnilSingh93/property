@@ -1518,6 +1518,21 @@ article img.pull-right, article .align-right{
   background: #35ac44;
   border-color: transparent;
 }
+.property-source h3 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+}
+section.section-what.section-about-new_what.about_new-box .skill-home-solid .box-area {
+    min-height: 320px !important;
+    max-height: 100%;
+}
+
+section.section-what.section-about-new_what.about_new-box .skill-home-solid .box-area p {overflow: auto;text-overflow: unset;-webkit-line-clamp: unset;display: unset;-webkit-box-orient: unset;}
 /*  Media queries 
 ============================= */
 
