@@ -1533,6 +1533,11 @@ section.section-what.section-about-new_what.about_new-box .skill-home-solid .box
 }
 
 section.section-what.section-about-new_what.about_new-box .skill-home-solid .box-area p {overflow: auto;text-overflow: unset;-webkit-line-clamp: unset;display: unset;-webkit-box-orient: unset;}
+body.about-page section.section-padding.about-section .about-right img {
+    max-width: 220px;
+	object-fit: cover;
+}
+
 /*  Media queries 
 ============================= */
 
@@ -1571,6 +1576,10 @@ section.section-what.section-about-new_what.about_new-box .skill-home-solid .box
 }
 
 @media (max-width: 767px) {
+	body.about-page section.section-padding.about-section .about-right img {
+    max-width: 100%;
+}
+
 .navbar-default .navbar-collapse{border-color: none;background: #46bd55;}
 .navbar-default .navbar-toggle .icon-bar {background-color: #46bd55;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
