@@ -1537,7 +1537,12 @@ body.about-page section.section-padding.about-section .about-right img {
     max-width: 220px;
 	object-fit: cover;
 }
-
+.topbar p.pull-right a {
+    color: #fff;
+}
+footer .widget p a {
+    color: #858585;
+}
 /*  Media queries 
 ============================= */
 
