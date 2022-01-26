@@ -234,3 +234,9 @@ $(document).ready(function(){
    
    });
    
+const divs = document.querySelectorAll('.panel-title');
+
+divs.forEach(el => el.addEventListener('click', event => {
+   el.classList.toggle("arrowUp");
+}));
+
