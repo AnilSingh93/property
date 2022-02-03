@@ -2147,7 +2147,9 @@ section.weraremoving h2.mainheading {
 {
 	margin-top: 50px;
 }
-    
+.about-right img {
+    width: 100%;
+}  
 /* collection **********/
 
 .colle-left .main-div .main-img img {
