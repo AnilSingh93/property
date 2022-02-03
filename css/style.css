@@ -10,6 +10,13 @@ body {
 	color:#656565;
 	font-size: 13px;
 }
+header a.navbar-brand p:first-line {
+    font-size: 40px;
+}
+header a.navbar-brand p:first-letter {
+    font-size: 50px;
+}
+
 header a.navbar-brand p {
     margin-bottom: 0;
     display: inline-block;
