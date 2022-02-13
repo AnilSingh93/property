@@ -1614,7 +1614,12 @@ section.section-padding.gray-bg.property-source.privac-pilicy ul li {
      padding-left: 0;
     padding-bottom: 10px;
 }
-
+.pro-desc {
+    margin-top: 20px;
+}
+.homepage-property-slider a{
+	text-decoration: none;
+}
 
 
 
