@@ -1619,6 +1619,8 @@ section.section-padding.gray-bg.property-source.privac-pilicy ul li {
 }
 .homepage-property-slider a{
 	text-decoration: none;
+	outline: none;
+	border: none;
 }
 
 
